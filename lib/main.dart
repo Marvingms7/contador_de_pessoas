@@ -12,13 +12,33 @@ void main() {
             "Pessoas: 500",
             style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
-          TextButton(
-              onPressed: () {},
-              // ignore: prefer_const_constructors
-              child: Text(
-                '+1',
-                style: const TextStyle(fontSize: 40.0, color: Colors.purple),
-              )),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: TextButton(
+                    onPressed: () {},
+                    // ignore: prefer_const_constructors
+                    child: Text(
+                      '-1',
+                      style:
+                          const TextStyle(fontSize: 40.0, color: Colors.purple),
+                    )),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: TextButton(
+                    onPressed: () {},
+                    // ignore: prefer_const_constructors
+                    child: Text(
+                      '+1',
+                      style:
+                          const TextStyle(fontSize: 40.0, color: Colors.purple),
+                    )),
+              )
+            ],
+          ),
           const Text(
             "Pode Entrar!",
             style: TextStyle(

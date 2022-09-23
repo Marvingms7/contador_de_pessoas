@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -48,7 +47,7 @@ void main() {
                 ],
               ),
               const Text(
-                "Pode Entrar!",
+                "Pode Entrar!!",
                 style: TextStyle(
                   color: Colors.white,
                   fontStyle: FontStyle.italic,

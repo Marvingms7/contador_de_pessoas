@@ -71,7 +71,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _pessoas = 0;
-  String _textoModificar = 'Pode Entrar!';
+  String _textoModificar = 'Pode Entrar!!';
   // ignore: non_constant_identifier_names
   void _contar_pessoas(int delta) {
     setState(() {
